@@ -3,3 +3,4 @@ src-git luci https://git.openwrt.org/project/luci.git^2778366916f815d4af9534218b
 src-git routing https://git.openwrt.org/feed/routing.git^2baff33918c089fd3744c7192f8ae7a29c47a8d7
 src-git telephony https://git.openwrt.org/feed/telephony.git^ee64ec42e981e1f9e5a21cd3478497987ff76680
 src-git helloworld https://github.com/fw876/helloworld.git
+src-git package https://github.com/guyezi/package.git
