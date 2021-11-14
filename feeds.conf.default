@@ -1,6 +1,6 @@
-src-git packages https://git.openwrt.org/feed/packages.git^e738d2faf1c4ed68094f1d5da075d2d92fb35049
-src-git luci https://git.openwrt.org/project/luci.git^2778366916f815d4af9534218bef10aa3aad3c01
-src-git routing https://git.openwrt.org/feed/routing.git^2baff33918c089fd3744c7192f8ae7a29c47a8d7
-src-git telephony https://git.openwrt.org/feed/telephony.git^ee64ec42e981e1f9e5a21cd3478497987ff76680
-src-git helloworld https://github.com/fw876/helloworld.git
-src-git package https://github.com/guyezi/package.git
+#src-git packages https://git.openwrt.org/feed/packages.git^ded142471e36831d2af63c7fe5062c4367f8ccd2
+#src-git luci https://git.openwrt.org/project/luci.git^d24760e60a83b63f316c7b186e30636b5baa5481
+src-git packages http://github.com/guyezi/hello-packages;21.02.1
+src-git luci https://github.com/guyezi/hello-luci.git
+src-git routing https://git.openwrt.org/feed/routing.git^9e7698f20d1edf8f912fbce2f21400f3cc772b31
+src-git telephony https://git.openwrt.org/feed/telephony.git^ed2719867150a9bfc85bf41dff52ef8443820f2a

@@ -17,7 +17,7 @@ DEFAULT_PACKAGES:=\
 	fstools \
 	libc \
 	libgcc \
-#	libustream-wolfssl \
+	libustream-wolfssl \
 	logd \
 	mtd \
 	netifd \
@@ -25,7 +25,10 @@ DEFAULT_PACKAGES:=\
 	uci \
 	uclient-fetch \
 	urandom-seed \
-	urngd
+	urngd \
+	nano \
+	wget \
+	git
 
 ifneq ($(CONFIG_SELINUX),)
 DEFAULT_PACKAGES+=busybox-selinux procd-selinux
@@ -51,7 +54,8 @@ DEFAULT_PACKAGES.router:=\
 	odhcp6c \
 	odhcpd-ipv6only \
 	ppp \
-	ppp-mod-pppoe
+	ppp-mod-pppoe \
+	luci
 
 ifneq ($(DUMP),)
   all: dumpinfo
